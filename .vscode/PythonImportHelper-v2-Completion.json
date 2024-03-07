@@ -1,0 +1,252 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "cvzone",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "cvzone",
+        "description": "cvzone",
+        "detail": "cvzone",
+        "documentation": {}
+    },
+    {
+        "label": "cv2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "cv2",
+        "description": "cv2",
+        "detail": "cv2",
+        "documentation": {}
+    },
+    {
+        "label": "PoseDetector",
+        "importPath": "cvzone.PoseModule",
+        "description": "cvzone.PoseModule",
+        "isExtraImport": true,
+        "detail": "cvzone.PoseModule",
+        "documentation": {}
+    },
+    {
+        "label": "PoseDetector",
+        "importPath": "cvzone.PoseModule",
+        "description": "cvzone.PoseModule",
+        "isExtraImport": true,
+        "detail": "cvzone.PoseModule",
+        "documentation": {}
+    },
+    {
+        "label": "absPath",
+        "kind": 5,
+        "importPath": "videoTryOn.main",
+        "description": "videoTryOn.main",
+        "peekOfCode": "absPath = \"c:/Users/viv91/Desktop/virtualTryOn/videoTryOn\"\ncap = cv2.VideoCapture(\"C:\\\\Users\\\\viv91\\\\Desktop\\\\virtualTryOn\\\\videoTryOn\\\\Resources\\\\Videos\\\\1.mp4\")\ndetector = PoseDetector()\nshirtFolderPath = \"C:\\\\Users\\\\viv91\\\\Desktop\\\\virtualTryOn\\\\videoTryOn\\\\Resources\\\\Shirts\"\nlistShirts = os.listdir(shirtFolderPath)\nprint(listShirts)\nfixedRatio = 262 / 190  # widthOfShirt/widthOfPoint11to12\nshirtRatioHeightWidth = 581 / 440\nimageNumber = 0\nimgButtonRight = cv2.imread(\"C:\\\\Users\\\\viv91\\\\Desktop\\\\virtualTryOn\\\\videoTryOn\\\\Resources\\\\button.png\", cv2.IMREAD_UNCHANGED)",
+        "detail": "videoTryOn.main",
+        "documentation": {}
+    },
+    {
+        "label": "cap",
+        "kind": 5,
+        "importPath": "videoTryOn.main",
+        "description": "videoTryOn.main",
+        "peekOfCode": "cap = cv2.VideoCapture(\"C:\\\\Users\\\\viv91\\\\Desktop\\\\virtualTryOn\\\\videoTryOn\\\\Resources\\\\Videos\\\\1.mp4\")\ndetector = PoseDetector()\nshirtFolderPath = \"C:\\\\Users\\\\viv91\\\\Desktop\\\\virtualTryOn\\\\videoTryOn\\\\Resources\\\\Shirts\"\nlistShirts = os.listdir(shirtFolderPath)\nprint(listShirts)\nfixedRatio = 262 / 190  # widthOfShirt/widthOfPoint11to12\nshirtRatioHeightWidth = 581 / 440\nimageNumber = 0\nimgButtonRight = cv2.imread(\"C:\\\\Users\\\\viv91\\\\Desktop\\\\virtualTryOn\\\\videoTryOn\\\\Resources\\\\button.png\", cv2.IMREAD_UNCHANGED)\nimgButtonLeft = cv2.flip(imgButtonRight, 1)",
+        "detail": "videoTryOn.main",
+        "documentation": {}
+    },
+    {
+        "label": "detector",
+        "kind": 5,
+        "importPath": "videoTryOn.main",
+        "description": "videoTryOn.main",
+        "peekOfCode": "detector = PoseDetector()\nshirtFolderPath = \"C:\\\\Users\\\\viv91\\\\Desktop\\\\virtualTryOn\\\\videoTryOn\\\\Resources\\\\Shirts\"\nlistShirts = os.listdir(shirtFolderPath)\nprint(listShirts)\nfixedRatio = 262 / 190  # widthOfShirt/widthOfPoint11to12\nshirtRatioHeightWidth = 581 / 440\nimageNumber = 0\nimgButtonRight = cv2.imread(\"C:\\\\Users\\\\viv91\\\\Desktop\\\\virtualTryOn\\\\videoTryOn\\\\Resources\\\\button.png\", cv2.IMREAD_UNCHANGED)\nimgButtonLeft = cv2.flip(imgButtonRight, 1)\ncounterRight = 0",
+        "detail": "videoTryOn.main",
+        "documentation": {}
+    },
+    {
+        "label": "shirtFolderPath",
+        "kind": 5,
+        "importPath": "videoTryOn.main",
+        "description": "videoTryOn.main",
+        "peekOfCode": "shirtFolderPath = \"C:\\\\Users\\\\viv91\\\\Desktop\\\\virtualTryOn\\\\videoTryOn\\\\Resources\\\\Shirts\"\nlistShirts = os.listdir(shirtFolderPath)\nprint(listShirts)\nfixedRatio = 262 / 190  # widthOfShirt/widthOfPoint11to12\nshirtRatioHeightWidth = 581 / 440\nimageNumber = 0\nimgButtonRight = cv2.imread(\"C:\\\\Users\\\\viv91\\\\Desktop\\\\virtualTryOn\\\\videoTryOn\\\\Resources\\\\button.png\", cv2.IMREAD_UNCHANGED)\nimgButtonLeft = cv2.flip(imgButtonRight, 1)\ncounterRight = 0\ncounterLeft = 0",
+        "detail": "videoTryOn.main",
+        "documentation": {}
+    },
+    {
+        "label": "listShirts",
+        "kind": 5,
+        "importPath": "videoTryOn.main",
+        "description": "videoTryOn.main",
+        "peekOfCode": "listShirts = os.listdir(shirtFolderPath)\nprint(listShirts)\nfixedRatio = 262 / 190  # widthOfShirt/widthOfPoint11to12\nshirtRatioHeightWidth = 581 / 440\nimageNumber = 0\nimgButtonRight = cv2.imread(\"C:\\\\Users\\\\viv91\\\\Desktop\\\\virtualTryOn\\\\videoTryOn\\\\Resources\\\\button.png\", cv2.IMREAD_UNCHANGED)\nimgButtonLeft = cv2.flip(imgButtonRight, 1)\ncounterRight = 0\ncounterLeft = 0\nselectionSpeed = 10",
+        "detail": "videoTryOn.main",
+        "documentation": {}
+    },
+    {
+        "label": "fixedRatio",
+        "kind": 5,
+        "importPath": "videoTryOn.main",
+        "description": "videoTryOn.main",
+        "peekOfCode": "fixedRatio = 262 / 190  # widthOfShirt/widthOfPoint11to12\nshirtRatioHeightWidth = 581 / 440\nimageNumber = 0\nimgButtonRight = cv2.imread(\"C:\\\\Users\\\\viv91\\\\Desktop\\\\virtualTryOn\\\\videoTryOn\\\\Resources\\\\button.png\", cv2.IMREAD_UNCHANGED)\nimgButtonLeft = cv2.flip(imgButtonRight, 1)\ncounterRight = 0\ncounterLeft = 0\nselectionSpeed = 10\nwhile True:\n    success, img = cap.read()",
+        "detail": "videoTryOn.main",
+        "documentation": {}
+    },
+    {
+        "label": "shirtRatioHeightWidth",
+        "kind": 5,
+        "importPath": "videoTryOn.main",
+        "description": "videoTryOn.main",
+        "peekOfCode": "shirtRatioHeightWidth = 581 / 440\nimageNumber = 0\nimgButtonRight = cv2.imread(\"C:\\\\Users\\\\viv91\\\\Desktop\\\\virtualTryOn\\\\videoTryOn\\\\Resources\\\\button.png\", cv2.IMREAD_UNCHANGED)\nimgButtonLeft = cv2.flip(imgButtonRight, 1)\ncounterRight = 0\ncounterLeft = 0\nselectionSpeed = 10\nwhile True:\n    success, img = cap.read()\n    img = detector.findPose(img)",
+        "detail": "videoTryOn.main",
+        "documentation": {}
+    },
+    {
+        "label": "imageNumber",
+        "kind": 5,
+        "importPath": "videoTryOn.main",
+        "description": "videoTryOn.main",
+        "peekOfCode": "imageNumber = 0\nimgButtonRight = cv2.imread(\"C:\\\\Users\\\\viv91\\\\Desktop\\\\virtualTryOn\\\\videoTryOn\\\\Resources\\\\button.png\", cv2.IMREAD_UNCHANGED)\nimgButtonLeft = cv2.flip(imgButtonRight, 1)\ncounterRight = 0\ncounterLeft = 0\nselectionSpeed = 10\nwhile True:\n    success, img = cap.read()\n    img = detector.findPose(img)\n    img = cv2.flip(img,1)",
+        "detail": "videoTryOn.main",
+        "documentation": {}
+    },
+    {
+        "label": "imgButtonRight",
+        "kind": 5,
+        "importPath": "videoTryOn.main",
+        "description": "videoTryOn.main",
+        "peekOfCode": "imgButtonRight = cv2.imread(\"C:\\\\Users\\\\viv91\\\\Desktop\\\\virtualTryOn\\\\videoTryOn\\\\Resources\\\\button.png\", cv2.IMREAD_UNCHANGED)\nimgButtonLeft = cv2.flip(imgButtonRight, 1)\ncounterRight = 0\ncounterLeft = 0\nselectionSpeed = 10\nwhile True:\n    success, img = cap.read()\n    img = detector.findPose(img)\n    img = cv2.flip(img,1)\n    lmList, bboxInfo = detector.findPosition(img, bboxWithHands=False, draw=False)",
+        "detail": "videoTryOn.main",
+        "documentation": {}
+    },
+    {
+        "label": "imgButtonLeft",
+        "kind": 5,
+        "importPath": "videoTryOn.main",
+        "description": "videoTryOn.main",
+        "peekOfCode": "imgButtonLeft = cv2.flip(imgButtonRight, 1)\ncounterRight = 0\ncounterLeft = 0\nselectionSpeed = 10\nwhile True:\n    success, img = cap.read()\n    img = detector.findPose(img)\n    img = cv2.flip(img,1)\n    lmList, bboxInfo = detector.findPosition(img, bboxWithHands=False, draw=False)\n    if lmList:",
+        "detail": "videoTryOn.main",
+        "documentation": {}
+    },
+    {
+        "label": "counterRight",
+        "kind": 5,
+        "importPath": "videoTryOn.main",
+        "description": "videoTryOn.main",
+        "peekOfCode": "counterRight = 0\ncounterLeft = 0\nselectionSpeed = 10\nwhile True:\n    success, img = cap.read()\n    img = detector.findPose(img)\n    img = cv2.flip(img,1)\n    lmList, bboxInfo = detector.findPosition(img, bboxWithHands=False, draw=False)\n    if lmList:\n        center = bboxInfo[\"center\"]",
+        "detail": "videoTryOn.main",
+        "documentation": {}
+    },
+    {
+        "label": "counterLeft",
+        "kind": 5,
+        "importPath": "videoTryOn.main",
+        "description": "videoTryOn.main",
+        "peekOfCode": "counterLeft = 0\nselectionSpeed = 10\nwhile True:\n    success, img = cap.read()\n    img = detector.findPose(img)\n    img = cv2.flip(img,1)\n    lmList, bboxInfo = detector.findPosition(img, bboxWithHands=False, draw=False)\n    if lmList:\n        center = bboxInfo[\"center\"]\n        lm11 = lmList[12][0:2]",
+        "detail": "videoTryOn.main",
+        "documentation": {}
+    },
+    {
+        "label": "selectionSpeed",
+        "kind": 5,
+        "importPath": "videoTryOn.main",
+        "description": "videoTryOn.main",
+        "peekOfCode": "selectionSpeed = 10\nwhile True:\n    success, img = cap.read()\n    img = detector.findPose(img)\n    img = cv2.flip(img,1)\n    lmList, bboxInfo = detector.findPosition(img, bboxWithHands=False, draw=False)\n    if lmList:\n        center = bboxInfo[\"center\"]\n        lm11 = lmList[12][0:2]\n        lm12 = lmList[11][0:2]",
+        "detail": "videoTryOn.main",
+        "documentation": {}
+    },
+    {
+        "label": "cap",
+        "kind": 5,
+        "importPath": "videoTryOn.main2",
+        "description": "videoTryOn.main2",
+        "peekOfCode": "cap = cv2.VideoCapture(\"C:\\\\Users\\\\viv91\\\\Desktop\\\\virtualTryOn\\\\videoTryOn\\\\Resources\\\\Videos\\\\1.mp4\")\n# cap = cv2.VideoCapture(0)\ndetector = PoseDetector()\nshirtFolderPath = \"C:\\\\Users\\\\viv91\\\\Desktop\\\\virtualTryOn\\\\videoTryOn\\\\Resources\\\\Shirts\"\nshirtsList = os.listdir(\"C:\\\\Users\\\\viv91\\\\Desktop\\\\virtualTryOn\\\\videoTryOn\\\\Resources\\\\Shirts\")\nfixedRatio = 262/190\n# buttons data\nimageNumber = 0\ncounterLeft = 0\ncounterRight = 0 ",
+        "detail": "videoTryOn.main2",
+        "documentation": {}
+    },
+    {
+        "label": "detector",
+        "kind": 5,
+        "importPath": "videoTryOn.main2",
+        "description": "videoTryOn.main2",
+        "peekOfCode": "detector = PoseDetector()\nshirtFolderPath = \"C:\\\\Users\\\\viv91\\\\Desktop\\\\virtualTryOn\\\\videoTryOn\\\\Resources\\\\Shirts\"\nshirtsList = os.listdir(\"C:\\\\Users\\\\viv91\\\\Desktop\\\\virtualTryOn\\\\videoTryOn\\\\Resources\\\\Shirts\")\nfixedRatio = 262/190\n# buttons data\nimageNumber = 0\ncounterLeft = 0\ncounterRight = 0 \nselectionSpeed =10\nrightButton = cv2.imread(\"C:\\\\Users\\\\viv91\\\\Desktop\\\\virtualTryOn\\\\videoTryOn\\\\Resources\\\\button.png\", cv2.IMREAD_UNCHANGED)",
+        "detail": "videoTryOn.main2",
+        "documentation": {}
+    },
+    {
+        "label": "shirtFolderPath",
+        "kind": 5,
+        "importPath": "videoTryOn.main2",
+        "description": "videoTryOn.main2",
+        "peekOfCode": "shirtFolderPath = \"C:\\\\Users\\\\viv91\\\\Desktop\\\\virtualTryOn\\\\videoTryOn\\\\Resources\\\\Shirts\"\nshirtsList = os.listdir(\"C:\\\\Users\\\\viv91\\\\Desktop\\\\virtualTryOn\\\\videoTryOn\\\\Resources\\\\Shirts\")\nfixedRatio = 262/190\n# buttons data\nimageNumber = 0\ncounterLeft = 0\ncounterRight = 0 \nselectionSpeed =10\nrightButton = cv2.imread(\"C:\\\\Users\\\\viv91\\\\Desktop\\\\virtualTryOn\\\\videoTryOn\\\\Resources\\\\button.png\", cv2.IMREAD_UNCHANGED)\nleftButton = cv2.flip(rightButton, 1)",
+        "detail": "videoTryOn.main2",
+        "documentation": {}
+    },
+    {
+        "label": "shirtsList",
+        "kind": 5,
+        "importPath": "videoTryOn.main2",
+        "description": "videoTryOn.main2",
+        "peekOfCode": "shirtsList = os.listdir(\"C:\\\\Users\\\\viv91\\\\Desktop\\\\virtualTryOn\\\\videoTryOn\\\\Resources\\\\Shirts\")\nfixedRatio = 262/190\n# buttons data\nimageNumber = 0\ncounterLeft = 0\ncounterRight = 0 \nselectionSpeed =10\nrightButton = cv2.imread(\"C:\\\\Users\\\\viv91\\\\Desktop\\\\virtualTryOn\\\\videoTryOn\\\\Resources\\\\button.png\", cv2.IMREAD_UNCHANGED)\nleftButton = cv2.flip(rightButton, 1)\nwhile True:",
+        "detail": "videoTryOn.main2",
+        "documentation": {}
+    },
+    {
+        "label": "fixedRatio",
+        "kind": 5,
+        "importPath": "videoTryOn.main2",
+        "description": "videoTryOn.main2",
+        "peekOfCode": "fixedRatio = 262/190\n# buttons data\nimageNumber = 0\ncounterLeft = 0\ncounterRight = 0 \nselectionSpeed =10\nrightButton = cv2.imread(\"C:\\\\Users\\\\viv91\\\\Desktop\\\\virtualTryOn\\\\videoTryOn\\\\Resources\\\\button.png\", cv2.IMREAD_UNCHANGED)\nleftButton = cv2.flip(rightButton, 1)\nwhile True:\n    success, img = cap.read()",
+        "detail": "videoTryOn.main2",
+        "documentation": {}
+    },
+    {
+        "label": "imageNumber",
+        "kind": 5,
+        "importPath": "videoTryOn.main2",
+        "description": "videoTryOn.main2",
+        "peekOfCode": "imageNumber = 0\ncounterLeft = 0\ncounterRight = 0 \nselectionSpeed =10\nrightButton = cv2.imread(\"C:\\\\Users\\\\viv91\\\\Desktop\\\\virtualTryOn\\\\videoTryOn\\\\Resources\\\\button.png\", cv2.IMREAD_UNCHANGED)\nleftButton = cv2.flip(rightButton, 1)\nwhile True:\n    success, img = cap.read()\n    img = detector.findPose(img,draw=True)\n    landmarksList, bboxInfo = detector.findPosition(img, bboxWithHands=False, draw=True)",
+        "detail": "videoTryOn.main2",
+        "documentation": {}
+    },
+    {
+        "label": "counterLeft",
+        "kind": 5,
+        "importPath": "videoTryOn.main2",
+        "description": "videoTryOn.main2",
+        "peekOfCode": "counterLeft = 0\ncounterRight = 0 \nselectionSpeed =10\nrightButton = cv2.imread(\"C:\\\\Users\\\\viv91\\\\Desktop\\\\virtualTryOn\\\\videoTryOn\\\\Resources\\\\button.png\", cv2.IMREAD_UNCHANGED)\nleftButton = cv2.flip(rightButton, 1)\nwhile True:\n    success, img = cap.read()\n    img = detector.findPose(img,draw=True)\n    landmarksList, bboxInfo = detector.findPosition(img, bboxWithHands=False, draw=True)\n    # if landmarks recognized then overlay image ",
+        "detail": "videoTryOn.main2",
+        "documentation": {}
+    },
+    {
+        "label": "counterRight",
+        "kind": 5,
+        "importPath": "videoTryOn.main2",
+        "description": "videoTryOn.main2",
+        "peekOfCode": "counterRight = 0 \nselectionSpeed =10\nrightButton = cv2.imread(\"C:\\\\Users\\\\viv91\\\\Desktop\\\\virtualTryOn\\\\videoTryOn\\\\Resources\\\\button.png\", cv2.IMREAD_UNCHANGED)\nleftButton = cv2.flip(rightButton, 1)\nwhile True:\n    success, img = cap.read()\n    img = detector.findPose(img,draw=True)\n    landmarksList, bboxInfo = detector.findPosition(img, bboxWithHands=False, draw=True)\n    # if landmarks recognized then overlay image \n    if landmarksList:",
+        "detail": "videoTryOn.main2",
+        "documentation": {}
+    },
+    {
+        "label": "rightButton",
+        "kind": 5,
+        "importPath": "videoTryOn.main2",
+        "description": "videoTryOn.main2",
+        "peekOfCode": "rightButton = cv2.imread(\"C:\\\\Users\\\\viv91\\\\Desktop\\\\virtualTryOn\\\\videoTryOn\\\\Resources\\\\button.png\", cv2.IMREAD_UNCHANGED)\nleftButton = cv2.flip(rightButton, 1)\nwhile True:\n    success, img = cap.read()\n    img = detector.findPose(img,draw=True)\n    landmarksList, bboxInfo = detector.findPosition(img, bboxWithHands=False, draw=True)\n    # if landmarks recognized then overlay image \n    if landmarksList:\n        center = bboxInfo[\"center\"]\n        clothImage = cv2.imread(os.path.join(shirtFolderPath, shirtsList[imageNumber]),cv2.IMREAD_UNCHANGED)",
+        "detail": "videoTryOn.main2",
+        "documentation": {}
+    },
+    {
+        "label": "leftButton",
+        "kind": 5,
+        "importPath": "videoTryOn.main2",
+        "description": "videoTryOn.main2",
+        "peekOfCode": "leftButton = cv2.flip(rightButton, 1)\nwhile True:\n    success, img = cap.read()\n    img = detector.findPose(img,draw=True)\n    landmarksList, bboxInfo = detector.findPosition(img, bboxWithHands=False, draw=True)\n    # if landmarks recognized then overlay image \n    if landmarksList:\n        center = bboxInfo[\"center\"]\n        clothImage = cv2.imread(os.path.join(shirtFolderPath, shirtsList[imageNumber]),cv2.IMREAD_UNCHANGED)\n        # get width of shirt",
+        "detail": "videoTryOn.main2",
+        "documentation": {}
+    }
+]
